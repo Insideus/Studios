@@ -50,7 +50,7 @@ jobs:
 
 addons:
   artifacts:
-    debug: false
-    bucket: travisatfluid
+    debug: true
+    bucket: travisaRedTeam
     paths:
     - ./build
