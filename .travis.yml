@@ -40,8 +40,6 @@ jobs:
       install: skip
       script:
         - ./precommit.sh
-        - ./url.sh
-        - ./nodata.sh
     - stage: SCons build
       script:
         - scons -j 4 folders -Q
