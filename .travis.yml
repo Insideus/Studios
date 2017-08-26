@@ -20,7 +20,7 @@ go:
   - "1.7"
 
 before_install:
-  - chmod +x gradlew
+  - chmod +x precommit.sh
   - sudo add-apt-repository ppa:webupd8team/atom -y
   - sudo apt-get update -qq
   - go get github.com/golang/lint/golint
